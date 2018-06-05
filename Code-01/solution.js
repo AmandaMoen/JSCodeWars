@@ -9,4 +9,4 @@ function abbrevName(name) {
 	let initialLastName = splitNames[1][0];
 	// We just learned about template literals.
 	return `${initialFirstName}.${initialLastName}`.toUpperCase();
-}
+}	
