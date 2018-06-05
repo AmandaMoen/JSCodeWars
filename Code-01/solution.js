@@ -4,7 +4,7 @@ function abbrevName(name) {
 	// Split the names at the space.
 	let splitNames = name.split(' ');
 	// Grab the first letter of the first word/name.
-	let initalFirstName = splitNames[0][0];
+	let initialFirstName = splitNames[0][0];
 	// Grab the first letter of the second word/name.
 	let initialLastName = splitNames[1][0];
 	// We just learned about template literals.
